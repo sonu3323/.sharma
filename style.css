@@ -555,6 +555,63 @@ padding: 30px 0px;
 
 
 
+@media only screen and (max-width: 600px) {
+
+  #h1-hello {
+      font-size: 60px;
+      margin-right: 100px !important;
+  }
+
+  .header-section h2 {
+      font-size: 70px;
+  }
+
+.header-section p {
+    font-size: 25px !important;
+}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 430px) {
+
+
+    #h1-hello {
+        font-size:70px;
+        margin-right: 100px !important;
+    }
+  
+
+    .header-buttons {
+        display: inline-flex;
+        margin-left: 0px;
+    }
+    
+    .header {
+        width:100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://raw.githubusercontent.com/sonu3323/sonu.github.io/master/images/sonu777.jpg");
+        background-size: 130% 100%;
+        background-repeat: no-repeat;
+        clip-path: polygon(100% 0% ,100% 85% ,50% 100%,0 85%,0 0);
+        position: relative;
+        background-attachment: fixed;
+    } 
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 /* *************Media Query End********************** */
